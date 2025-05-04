@@ -12,9 +12,8 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-
 }
 body {
   width: 100%;
@@ -500,6 +499,12 @@ body {
       font-style: italic;
       position: relative;
 
+      p {
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
       &::before {
         content: '"';
         font-size: 4rem;
@@ -732,13 +737,12 @@ footer {
   }
 }
 
-
 // For special products section
 .special-products,
 .special-desscrt {
   @media (max-width: 768px) {
     padding: 15px;
-    
+
     .product-cart {
       width: 100%;
       padding: 10px;
@@ -748,7 +752,7 @@ footer {
     .cart {
       width: 240px;
       min-height: 300px;
-      
+
       .cart-image {
         height: 200px;
         width: 220px;
@@ -756,7 +760,7 @@ footer {
 
       .cart-text {
         padding: 8px 4px;
-        
+
         h3 {
           font-size: 1.1rem;
         }
@@ -766,7 +770,7 @@ footer {
         .price {
           font-size: 18px;
         }
-        
+
         .order-btn {
           padding: 8px;
           font-size: 14px;
@@ -783,7 +787,7 @@ footer {
 
     .section-title {
       margin-bottom: 20px;
-      
+
       h2 {
         font-size: 1.8rem;
       }
@@ -802,7 +806,7 @@ footer {
 
       .customer-details {
         gap: 10px;
-        
+
         img {
           height: 60px;
           width: 60px;
@@ -812,7 +816,7 @@ footer {
           h4 {
             font-size: 1rem;
           }
-          
+
           .rating {
             font-size: 0.9rem;
           }
@@ -835,7 +839,8 @@ footer {
     padding: 20px 10px;
 
     .text-bannar-two {
-      h1, span {
+      h1,
+      span {
         font-size: 1.4rem;
         margin: 5px;
       }
@@ -865,7 +870,8 @@ footer {
 
   @media (max-width: 480px) {
     .text-bannar-two {
-      h1, span {
+      h1,
+      span {
         font-size: 1.2rem;
       }
     }
