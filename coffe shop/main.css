@@ -661,4 +661,118 @@ footer .footer .footer-col .social-links a:hover {
   footer .footer .footer-col .social-links {
     justify-content: center;
   }
+}
+
+@media (max-width: 768px) {
+  .special-products,
+  .special-desscrt {
+    padding: 15px;
+  }
+  .special-products .product-cart,
+  .special-desscrt .product-cart {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+  .special-products .cart,
+  .special-desscrt .cart {
+    width: 240px;
+    min-height: 300px;
+  }
+  .special-products .cart .cart-image,
+  .special-desscrt .cart .cart-image {
+    height: 200px;
+    width: 220px;
+  }
+  .special-products .cart .cart-text,
+  .special-desscrt .cart .cart-text {
+    padding: 8px 4px;
+  }
+  .special-products .cart .cart-text h3,
+  .special-desscrt .cart .cart-text h3 {
+    font-size: 1.1rem;
+  }
+  .special-products .cart .cart-price .price,
+  .special-desscrt .cart .cart-price .price {
+    font-size: 18px;
+  }
+  .special-products .cart .cart-price .order-btn,
+  .special-desscrt .cart .cart-price .order-btn {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-review {
+    padding: 10px;
+  }
+  .customer-review .section-title {
+    margin-bottom: 20px;
+  }
+  .customer-review .section-title h2 {
+    font-size: 1.8rem;
+  }
+  .customer-review .customer {
+    width: 100%;
+    padding: 5px;
+    gap: 15px;
+  }
+  .customer-review .customer-cart {
+    min-height: 200px;
+    width: 300px;
+    padding: 15px;
+  }
+  .customer-review .customer-cart .customer-details {
+    gap: 10px;
+  }
+  .customer-review .customer-cart .customer-details img {
+    height: 60px;
+    width: 60px;
+  }
+  .customer-review .customer-cart .customer-details .customer-info h4 {
+    font-size: 1rem;
+  }
+  .customer-review .customer-cart .customer-details .customer-info .rating {
+    font-size: 0.9rem;
+  }
+  .customer-review .customer-cart .review-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannar-section-two {
+    min-height: 45vh;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .bannar-section-two .text-bannar-two h1, .bannar-section-two .text-bannar-two span {
+    font-size: 1.4rem;
+    margin: 5px;
+  }
+  .bannar-section-two .input-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .bannar-section-two .input-area input {
+    width: 90%;
+    max-width: 300px;
+    margin: 5px;
+  }
+  .bannar-section-two .input-area button {
+    width: 90%;
+    max-width: 300px;
+    margin: 5px;
+    padding: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .bannar-section-two .text-bannar-two h1, .bannar-section-two .text-bannar-two span {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=main.css.map */

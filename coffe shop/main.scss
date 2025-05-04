@@ -731,3 +731,143 @@ footer {
     }
   }
 }
+
+
+// For special products section
+.special-products,
+.special-desscrt {
+  @media (max-width: 768px) {
+    padding: 15px;
+    
+    .product-cart {
+      width: 100%;
+      padding: 10px;
+      height: auto;
+    }
+
+    .cart {
+      width: 240px;
+      min-height: 300px;
+      
+      .cart-image {
+        height: 200px;
+        width: 220px;
+      }
+
+      .cart-text {
+        padding: 8px 4px;
+        
+        h3 {
+          font-size: 1.1rem;
+        }
+      }
+
+      .cart-price {
+        .price {
+          font-size: 18px;
+        }
+        
+        .order-btn {
+          padding: 8px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// For customer review section
+.customer-review {
+  @media (max-width: 768px) {
+    padding: 10px;
+
+    .section-title {
+      margin-bottom: 20px;
+      
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+
+    .customer {
+      width: 100%;
+      padding: 5px;
+      gap: 15px;
+    }
+
+    .customer-cart {
+      min-height: 200px;
+      width: 300px;
+      padding: 15px;
+
+      .customer-details {
+        gap: 10px;
+        
+        img {
+          height: 60px;
+          width: 60px;
+        }
+
+        .customer-info {
+          h4 {
+            font-size: 1rem;
+          }
+          
+          .rating {
+            font-size: 0.9rem;
+          }
+        }
+      }
+
+      .review-text {
+        font-size: 0.9rem;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+// For banner section two
+.bannar-section-two {
+  @media (max-width: 768px) {
+    min-height: 45vh;
+    text-align: center;
+    padding: 20px 10px;
+
+    .text-bannar-two {
+      h1, span {
+        font-size: 1.4rem;
+        margin: 5px;
+      }
+    }
+
+    .input-area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+      input {
+        width: 90%;
+        max-width: 300px;
+        margin: 5px;
+      }
+
+      button {
+        width: 90%;
+        max-width: 300px;
+        margin: 5px;
+        padding: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .text-bannar-two {
+      h1, span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
